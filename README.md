@@ -1,8 +1,10 @@
-![](Plots/Important_Features.png)
+
 # Machine-Maintainence
 
 
 This dataset consists of 100 machines with sensors and error codes timestamped across a period of one year.  The notebook shows all cleaning steps required (synchronizing the time references, converting data types, addressing missing values, etc.), dealing with the unbalanced nature of the data, visual data exploration, and finally, the creation and evaluation of two models.
+
+![](Plots/Important_Features.png)
 
 The evaluation is done based on estimated repair costs (including actual repair, lost production, and unnecessary service calls.)  The results are detailed the ![presentation](Predicting_Machine_Maintenance.pdf) but the best model is projected to save almost 50% of the annual maintenance cost.
 
