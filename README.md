@@ -10,7 +10,7 @@ The evaluation is done based on estimated repair costs (including actual repair,
 
 ![](Plots/both_mods.png)
 
-Though these plots show the relative accuracy in terms of predicting when machines fail, to understand the economic impact, the various quadrants of the confusion matrix must be weighted by the appropriate costs.  The results are surprising, as the logistic regression model is essentially useless, while the random forest is exceptionally useful.
+The plots above show the relative accuracy in terms of predicting when machines fail. To understand the economic impact, the various quadrants of the confusion matrix must be weighted by the appropriate costs.  The results are surprising, as the logistic regression model is essentially useless, while the random forest is exceptionally useful.  All code to develop these conclusions is shown in the notebook.
 
 ![](Plots/cost_drivers.png)
 
